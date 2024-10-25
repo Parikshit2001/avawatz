@@ -11,10 +11,10 @@ function Navbar() {
         <div className="flex items-center gap-8 h-full">
           <div className="flex items-center cursor-pointer my-3">
             <Image
-              src="/republic.jpeg"
+              src="/images/republic.jpeg"
               width={40}
               height={40}
-              alt="Picture of the author"
+              alt="Picture of Republic Logo"
             />
             <h1 className="text-xl font-semibold">Republic</h1>
           </div>
