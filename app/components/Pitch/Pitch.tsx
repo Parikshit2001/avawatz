@@ -6,10 +6,10 @@ function Pitch() {
   return (
     <div className="pt-5 pb-12 px-8 max-w-[1100px] mx-auto">
       <div className="grid grid-cols-12">
-        <div className="col-span-8">
+        <div className="col-span-12 sm:col-span-8">
           <LeftColumn />
         </div>
-        <div className="col-span-4">
+        <div className="col-span-4 hidden sm:block">
           <RightColumn />
         </div>
       </div>
